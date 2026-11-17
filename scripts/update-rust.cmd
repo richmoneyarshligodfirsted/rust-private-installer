@@ -1,0 +1,1 @@
+@echo offset "PATH=%USERPROFILE%\.cargo\bin;%PATH%"echo Updating Rust toolchains...rustup updateif errorlevel 1 (    echo Rust update failed.    exit /b 1)echo Rust update completed.rustc --versioncargo --versionexit /b 0

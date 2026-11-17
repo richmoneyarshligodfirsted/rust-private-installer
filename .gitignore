@@ -1,0 +1,1 @@
+# Rust build directoriestarget/# Cargo cache.cargo/# Rustup installation.rustup/# Windows temporary files*.tmp*.temp*.log# Windows system filesThumbs.dbDesktop.ini# IDE files.vscode/.idea/# Git credentials and secrets.env.env.**.pem*.key*.pfx*.p12# Backup files*.bak*.old
